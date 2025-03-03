@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="100" height="100" rx="20" fill="#282c34"/>
+  
+  <!-- Navigation arrow indicating routing -->
+  <path d="M30 50 H70" stroke="#61DAFB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M55 35 L70 50 L55 65" stroke="#61DAFB" stroke-width="6" stroke-linecap="round" fill="none"/>
+  
+  <!-- "R" text representing React Router -->
+  <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-size="20" font-family="Arial">
+    R
+  </text>
+</svg>

@@ -1,0 +1,14 @@
+.fileDetail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5pt;
+  padding: 10pt;
+  list-style: none;
+  border: var(--primary-color) 1px solid;
+  border-radius: 5pt;
+  background: var(--primary-color-25);
+  width: min(90%, 800px);
+}
