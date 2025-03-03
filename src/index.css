@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./assets/fonts/comfortaa/Comfortaa-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+:root {
+  /* CSS Primary variables */
+  color-scheme: light dark;
+  --primary-font: 'Comfortaa', sans-serif;
+  --primary-color: light-dark(#1ebef0, #e9262a);
+  --primary-color-75: light-dark(#1ebef0c0, #e9262ac0);
+  --primary-color-50: light-dark(#1ebef080, #e9262a80);
+  --primary-color-35: light-dark(#1ebef055, #e9262a55);
+  --primary-color-25: light-dark(#1ebef040, #e9262a40);
+  --secondary-color: light-dark(#ffffff, #1d1d1d);
+  --background-color: light-dark(#ffffff, #1d1d1d);
+  --primary-text-color: light-dark(#1ebef0, #e9262a);
+  --secondary-text-color: light-dark(#ffffff, #1d1d1d);
+  --error-color: light-dark(#ff0000, #800000);
+
+  background-color: var(--background-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--primary-text-color);
+  transition: all 0.3s ease;
+}
